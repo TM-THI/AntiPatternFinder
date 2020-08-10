@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_c40dc6107fd040cfad1b001b98219a63" name="findings">
+  <packageImport xmi:id="_9a70d011312a4361adb80f0cf8c3dbc8">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_853fa1421816489ca1102d638fe5a3f3" name="checkRights">
+    <lifeline xmi:id="_8cc6701fcfc94430b520462fc46d976c" name="*" coveredBy="_6841b79f81374461ab64a5d295247e38 _7e77b61dcc4f48379686e560f541a1e0 _581f8a3dae044fb3a27229d9f5e1bad1 _01a289b191c74d149c3f6d67ae09cc18 _9c8765a4e34f45fda22b2c917c84e8c8"/>
+    <lifeline xmi:id="_fddf5e7f983543f7963f720e50e436f6" name="**" coveredBy="_41f2cfb612fa422c80103a98396fde14 _ca781941b2f048d49ee5ba85cf0633f9 _ca245057df5b448ca1608822ad65f377 _158785d4a7c14e40af4a283e14a9af77 _2ec6b94ac50d4f729d8971d4c96a99fc _968f44d80b644e889ac1540cb60fc11d _34de70be2a5b45559e9836042f6e445b _6c7c685db86c4d5b95e2309e42151947"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_6841b79f81374461ab64a5d295247e38" name="*:Start" covered="_8cc6701fcfc94430b520462fc46d976c" execution="_7e77b61dcc4f48379686e560f541a1e0"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_7e77b61dcc4f48379686e560f541a1e0" name="*" covered="_8cc6701fcfc94430b520462fc46d976c" finish="_9c8765a4e34f45fda22b2c917c84e8c8" start="_6841b79f81374461ab64a5d295247e38"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_41f2cfb612fa422c80103a98396fde14" name="*:Start" covered="_fddf5e7f983543f7963f720e50e436f6" execution="_ca781941b2f048d49ee5ba85cf0633f9"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_ca781941b2f048d49ee5ba85cf0633f9" name="*" covered="_fddf5e7f983543f7963f720e50e436f6" finish="_158785d4a7c14e40af4a283e14a9af77" start="_41f2cfb612fa422c80103a98396fde14"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_581f8a3dae044fb3a27229d9f5e1bad1" name="!€$checkRights$€!:Send" covered="_8cc6701fcfc94430b520462fc46d976c" message="_0c0ac6efdc2c40c1a5d294ace04df733"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ca245057df5b448ca1608822ad65f377" name="!€$checkRights$€!:Receive" covered="_fddf5e7f983543f7963f720e50e436f6" message="_0c0ac6efdc2c40c1a5d294ace04df733"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_158785d4a7c14e40af4a283e14a9af77" name="*:Finish" covered="_fddf5e7f983543f7963f720e50e436f6" execution="_ca781941b2f048d49ee5ba85cf0633f9"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_2ec6b94ac50d4f729d8971d4c96a99fc" name="*:Start" covered="_fddf5e7f983543f7963f720e50e436f6" execution="_968f44d80b644e889ac1540cb60fc11d"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_968f44d80b644e889ac1540cb60fc11d" name="*" covered="_fddf5e7f983543f7963f720e50e436f6" finish="_6c7c685db86c4d5b95e2309e42151947" start="_2ec6b94ac50d4f729d8971d4c96a99fc"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_01a289b191c74d149c3f6d67ae09cc18" name="€$criticalAction$€:Send" covered="_8cc6701fcfc94430b520462fc46d976c" message="_db3e4331c77b4adaacad93836c587bec"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_34de70be2a5b45559e9836042f6e445b" name="€$criticalAction$€:Receive" covered="_fddf5e7f983543f7963f720e50e436f6" message="_db3e4331c77b4adaacad93836c587bec"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_6c7c685db86c4d5b95e2309e42151947" name="*:Finish" covered="_fddf5e7f983543f7963f720e50e436f6" execution="_968f44d80b644e889ac1540cb60fc11d"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_9c8765a4e34f45fda22b2c917c84e8c8" name="*:Finish" covered="_8cc6701fcfc94430b520462fc46d976c" execution="_7e77b61dcc4f48379686e560f541a1e0"/>
+    <message xmi:id="_db3e4331c77b4adaacad93836c587bec" name="€$criticalAction$€" receiveEvent="_34de70be2a5b45559e9836042f6e445b" sendEvent="_01a289b191c74d149c3f6d67ae09cc18"/>
+    <message xmi:id="_0c0ac6efdc2c40c1a5d294ace04df733" name="!€$checkRights$€!" receiveEvent="_ca245057df5b448ca1608822ad65f377" sendEvent="_581f8a3dae044fb3a27229d9f5e1bad1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:extension" xmi:id="extensionDictionary" name="Dictionary">
+<dictionary xmi:type="uml:extension:Dictionary" name="checkRights" value=" checkRight right hasRight"/>
+<dictionary xmi:type="uml:extension:Dictionary" name="criticalAction" value=" readpersonaldata private user"/>
+</packagedElement>
+</uml:Model>

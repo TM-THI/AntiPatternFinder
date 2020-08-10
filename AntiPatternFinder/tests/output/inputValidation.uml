@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_740057240d3f444ab2ef0c68789579ca" name="findings">
+<packageImport xmi:type="uml:PackageImport" xmi:id="_5aed645d5d7e4c74acb5e98ea22685e0">
+<importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+</packageImport>
+<packagedElement xmi:type="uml:extension" xmi:id="extensionDictionary" name="Dictionary">
+<dictionary xmi:type="uml:extension:Dictionary" name="readInput" value=" read einlesen getInput"/>
+<dictionary xmi:type="uml:extension:Dictionary" name="inputValidator" value=" validate check"/>
+<dictionary xmi:type="uml:extension:Dictionary" name="workWithInput" value=" input"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Interaction" xmi:id="_f572c1c52d0d4a94a0403fd6bd189955" name="">
+<lifeline xmi:type="uml:Lifeline" xmi:id="_ac18534aa95043e48d699a459f5c6645" name="*" coveredBy="_89efb8d03ed349039d863c016f15e2bf _9d41617fc12b4ff29633ec061e08369d _0e13f29a14a146cb89dd7a451ed25fcc  _14247a695c0d48a28ba55e424967c5ca  _f86595c870474c2082258b81b35fb7d1  _3513670c4ef14075b981581f8210e9b0 "/>
+<lifeline xmi:type="uml:Lifeline" xmi:id="_53e909e518d34eb584e4ffe1708b09f2" name="**" coveredBy="_c4fa69c51b004a9a801904c05004c82e _31988c21da17492f83f43d924c4749e9 _0822fabf43114f8099391f7622fb689c  _4460bb5113794edd86bea9dea7c6963a _12c9ec6b8cc24205a800cd7dd195fca2 _c541c07f1a7a4ebb817d7f5186419992 _b2173e2ebbb2497baebd6951317a71e2  _54d8233fedd847148c0de08d33acc02e _73a0a6f8a6fe447f87b248d8d3a3e5db _7748d63bbdb74bfebffc7a54c5332733 _73eb235de5d94de3a898dd7dcd270abb  _26270d30f93f4112af6e0dae33dd424e "/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_89efb8d03ed349039d863c016f15e2bf" name="*:Start" covered="_ac18534aa95043e48d699a459f5c6645" execution="_9d41617fc12b4ff29633ec061e08369d"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_9d41617fc12b4ff29633ec061e08369d" name="*" covered="_ac18534aa95043e48d699a459f5c6645" finish="_3513670c4ef14075b981581f8210e9b0" start="_89efb8d03ed349039d863c016f15e2bf"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0e13f29a14a146cb89dd7a451ed25fcc" name="€$readInput$€:Send" covered="_ac18534aa95043e48d699a459f5c6645" message="_4c2ffc9ac55840deb0acc4dce2db4d90"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_14247a695c0d48a28ba55e424967c5ca" name="!€$inputValidator$€!:Send" covered="_ac18534aa95043e48d699a459f5c6645" message="_19d629b18da048f680999757c37424b4"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_f86595c870474c2082258b81b35fb7d1" name="€$workWithInput$€:Send" covered="_ac18534aa95043e48d699a459f5c6645" message="_083e5f1eb0f54f9c8304a5912e743e79"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3513670c4ef14075b981581f8210e9b0" name="*:Finish" covered="_ac18534aa95043e48d699a459f5c6645" execution="_9d41617fc12b4ff29633ec061e08369d"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_c4fa69c51b004a9a801904c05004c82e" name="*:Start" covered="_53e909e518d34eb584e4ffe1708b09f2" execution="_31988c21da17492f83f43d924c4749e9"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_31988c21da17492f83f43d924c4749e9" name="*" covered="_53e909e518d34eb584e4ffe1708b09f2" finish="_4460bb5113794edd86bea9dea7c6963a" start="_c4fa69c51b004a9a801904c05004c82e"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0822fabf43114f8099391f7622fb689c" name="€$readInput$€:Receive" covered="_53e909e518d34eb584e4ffe1708b09f2" message="_4c2ffc9ac55840deb0acc4dce2db4d90"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_4460bb5113794edd86bea9dea7c6963a" name="*:Finish" covered="_53e909e518d34eb584e4ffe1708b09f2" execution="_31988c21da17492f83f43d924c4749e9"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_12c9ec6b8cc24205a800cd7dd195fca2" name="*:Start" covered="_53e909e518d34eb584e4ffe1708b09f2" execution="_c541c07f1a7a4ebb817d7f5186419992"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_c541c07f1a7a4ebb817d7f5186419992" name="*" covered="_53e909e518d34eb584e4ffe1708b09f2" finish="_54d8233fedd847148c0de08d33acc02e" start="_12c9ec6b8cc24205a800cd7dd195fca2"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_b2173e2ebbb2497baebd6951317a71e2" name="!€$inputValidator$€!:Receive" covered="_53e909e518d34eb584e4ffe1708b09f2" message="_19d629b18da048f680999757c37424b4"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_54d8233fedd847148c0de08d33acc02e" name="*:Finish" covered="_53e909e518d34eb584e4ffe1708b09f2" execution="_c541c07f1a7a4ebb817d7f5186419992"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_73a0a6f8a6fe447f87b248d8d3a3e5db" name="*:Start" covered="_53e909e518d34eb584e4ffe1708b09f2" execution="_7748d63bbdb74bfebffc7a54c5332733"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_7748d63bbdb74bfebffc7a54c5332733" name="*" covered="_53e909e518d34eb584e4ffe1708b09f2" finish="_26270d30f93f4112af6e0dae33dd424e" start="_73a0a6f8a6fe447f87b248d8d3a3e5db"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_73eb235de5d94de3a898dd7dcd270abb" name="€$workWithInput$€:Receive" covered="_53e909e518d34eb584e4ffe1708b09f2" message="_083e5f1eb0f54f9c8304a5912e743e79"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_26270d30f93f4112af6e0dae33dd424e" name="*:Finish" covered="_53e909e518d34eb584e4ffe1708b09f2" execution="_7748d63bbdb74bfebffc7a54c5332733"/>
+<message xmi:type="uml:Message" xmi:id="_4c2ffc9ac55840deb0acc4dce2db4d90" name="€$readInput$€" receiveEvent="_0822fabf43114f8099391f7622fb689c" sendEvent="_0e13f29a14a146cb89dd7a451ed25fcc"/>
+<message xmi:type="uml:Message" xmi:id="_083e5f1eb0f54f9c8304a5912e743e79" name="€$workWithInput$€" receiveEvent="_73eb235de5d94de3a898dd7dcd270abb" sendEvent="_f86595c870474c2082258b81b35fb7d1"/>
+<message xmi:type="uml:Message" xmi:id="_19d629b18da048f680999757c37424b4" name="!€$inputValidator$€!" receiveEvent="_b2173e2ebbb2497baebd6951317a71e2" sendEvent="_14247a695c0d48a28ba55e424967c5ca"/>
+</packagedElement>
+</uml:Model>

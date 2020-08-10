@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_8598c155d07b4ce98f83fb2bbbb94a72" name="findings">
+<packageImport xmi:type="uml:PackageImport" xmi:id="_2265155c9d1a4b3d9a67639c3696131a">
+<importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+</packageImport>
+<packagedElement xmi:type="uml:extension" xmi:id="extensionDictionary" name="Dictionary">
+<dictionary xmi:type="uml:extension:Dictionary" name="insecureEncryption" value=" DES PGP"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Interaction" xmi:id="_8397f74f7e5e44cd9a48b2e76d8637dc" name="">
+<lifeline xmi:type="uml:Lifeline" xmi:id="_7da4fa7f58144543b7e801be8ca2f97b" name="*" coveredBy="_d3ae65909fe74b399accfbd473514d3e _42594e0995cd4b0ead2b58638b300565 _7331222168d5460c9b0b6e27857bdbfe  _752e495821a643e7945c2e6be9f34b76 "/>
+<lifeline xmi:type="uml:Lifeline" xmi:id="_eec8a83a8a754de291d979d1eff2de32" name="**" coveredBy="_bbc36ad40c274052970939b4c5c443ac _acdc15d3490a4b8ab748b267ee544e5b _b40d505fcccd4e228362432ea9360459  _6199b2b7b5934db9b16d6528cba4ecef "/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_d3ae65909fe74b399accfbd473514d3e" name="*:Start" covered="_7da4fa7f58144543b7e801be8ca2f97b" execution="_42594e0995cd4b0ead2b58638b300565"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_42594e0995cd4b0ead2b58638b300565" name="*" covered="_7da4fa7f58144543b7e801be8ca2f97b" finish="_752e495821a643e7945c2e6be9f34b76" start="_d3ae65909fe74b399accfbd473514d3e"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7331222168d5460c9b0b6e27857bdbfe" name="€$insecureEncryption$€:Send" covered="_7da4fa7f58144543b7e801be8ca2f97b" message="_c1f306e4a0cd43ef8302cffe63d95718"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_752e495821a643e7945c2e6be9f34b76" name="*:Finish" covered="_7da4fa7f58144543b7e801be8ca2f97b" execution="_42594e0995cd4b0ead2b58638b300565"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_bbc36ad40c274052970939b4c5c443ac" name="*:Start" covered="_eec8a83a8a754de291d979d1eff2de32" execution="_acdc15d3490a4b8ab748b267ee544e5b"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_acdc15d3490a4b8ab748b267ee544e5b" name="*" covered="_eec8a83a8a754de291d979d1eff2de32" finish="_6199b2b7b5934db9b16d6528cba4ecef" start="_bbc36ad40c274052970939b4c5c443ac"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_b40d505fcccd4e228362432ea9360459" name="€$insecureEncryption$€:Receive" covered="_eec8a83a8a754de291d979d1eff2de32" message="_c1f306e4a0cd43ef8302cffe63d95718"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_6199b2b7b5934db9b16d6528cba4ecef" name="*:Finish" covered="_eec8a83a8a754de291d979d1eff2de32" execution="_acdc15d3490a4b8ab748b267ee544e5b"/>
+<message xmi:type="uml:Message" xmi:id="_c1f306e4a0cd43ef8302cffe63d95718" name="€$insecureEncryption$€" receiveEvent="_b40d505fcccd4e228362432ea9360459" sendEvent="_7331222168d5460c9b0b6e27857bdbfe"/>
+</packagedElement>
+</uml:Model>

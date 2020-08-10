@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_b80ce8c6ef5c4de787ff9451fbcdf293" name="findings">
+<packageImport xmi:type="uml:PackageImport" xmi:id="_e426c53213074ac88bee0a4bde4c51fb">
+<importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+</packageImport>
+<packagedElement xmi:type="uml:Interaction" xmi:id="_59cd3cb499004afb8f6f60a2f09e5416" name="">
+<lifeline xmi:type="uml:Lifeline" xmi:id="_3da2474093e0477b8b4c34d998236be8" name="Crypto" coveredBy="_a3cb98fc89d7456caf6212c1d00302d7 _6244d1a8b2b243dd9fe952b669223576 _60b8ea5c11db487e94437686176e15b6  _7d5245956c724eebaff7eb8642b67b9b "/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_a3cb98fc89d7456caf6212c1d00302d7" name="encrypt_DES:Start" covered="_3da2474093e0477b8b4c34d998236be8" execution="_6244d1a8b2b243dd9fe952b669223576"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_6244d1a8b2b243dd9fe952b669223576" name="encrypt_DES" covered="_3da2474093e0477b8b4c34d998236be8" finish="_7d5245956c724eebaff7eb8642b67b9b" start="_a3cb98fc89d7456caf6212c1d00302d7"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_60b8ea5c11db487e94437686176e15b6" name="encrypt_DES:Receive" covered="_3da2474093e0477b8b4c34d998236be8" message="_d12fc24b7f2845cfaee801a6f152ff64"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_7d5245956c724eebaff7eb8642b67b9b" name="encrypt_DES:Finish" covered="_3da2474093e0477b8b4c34d998236be8" execution="_6244d1a8b2b243dd9fe952b669223576"/>
+<message xmi:type="uml:Message" xmi:id="_d12fc24b7f2845cfaee801a6f152ff64" name="encrypt_DES" receiveEvent="_60b8ea5c11db487e94437686176e15b6" sendEvent="null"/>
+</packagedElement>
+</uml:Model>

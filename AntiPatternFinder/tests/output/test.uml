@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_10616fa436004f3bb0be9e2c29c3fe4a" name="findings">
+<packageImport xmi:type="uml:PackageImport" xmi:id="_e80ff244f81344d9a8090be0bb4021d1">
+<importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+</packageImport>
+<packagedElement xmi:type="uml:Interaction" xmi:id="_0CsoQKNNEeqvAeFMsMcX2g" name="Interaction2">
+<lifeline xmi:type="uml:Lifeline" xmi:id="_1fA1QKNNEeqvAeFMsMcX2g" name="Lifeline1" coveredBy="_1c039fcb41514166a28f7730c38101d0 _2drc8KNNEeqvAeFMsMcX2g _9d53e619805b472c983db86b4f5a6d4d _4rzhYKNNEeqvAeFMsMcX2g _95c38d32717349f08fd24d0218afabd8  _4eb2031cc85f4517b7474f7818540240  _262bd2aa09ad4d10ac06aaa784f50fe5  _d94557bd242d4424b0b12d38659f3876 "/>
+<lifeline xmi:type="uml:Lifeline" xmi:id="_13-u4KNNEeqvAeFMsMcX2g" name="Lifeline2" coveredBy="_aebb3c77746242d0b78f2dc5eb1fa945 _3Yk-8KNNEeqvAeFMsMcX2g _05632d5710a34e6e9be0647b54d8caa3  _d8b0ed044f714982a1eec2e88f47fa72  _f0e8593feb5e4e50ac3c2ffec8ad2906 _3e5eb81e5fce409982d79277e7329371 _kGfi4KNQEeqvAeFMsMcX2g _152e61e1e02945fda0d1b6b19e89b89f _n7AWUKNQEeqvAeFMsMcX2g _c2ee13fdd3864972b22fb83ec18677b4  _44054e16f9a34b699b8673bd15bc7ac9 "/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_1c039fcb41514166a28f7730c38101d0" name="Exec_Lifeline1_ex1_0:Start" covered="_1fA1QKNNEeqvAeFMsMcX2g" execution="_2drc8KNNEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_2drc8KNNEeqvAeFMsMcX2g" name="Exec_Lifeline1_ex1_0" covered="_1fA1QKNNEeqvAeFMsMcX2g" finish="_d94557bd242d4424b0b12d38659f3876" start="_1c039fcb41514166a28f7730c38101d0"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_9d53e619805b472c983db86b4f5a6d4d" name="Exec_Lifeline1_ex1_1:Start" covered="_1fA1QKNNEeqvAeFMsMcX2g" execution="_4rzhYKNNEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_4rzhYKNNEeqvAeFMsMcX2g" name="Exec_Lifeline1_ex1_1" covered="_1fA1QKNNEeqvAeFMsMcX2g" finish="_262bd2aa09ad4d10ac06aaa784f50fe5" start="_9d53e619805b472c983db86b4f5a6d4d"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_95c38d32717349f08fd24d0218afabd8" name="Nachricht_1:Send" covered="_1fA1QKNNEeqvAeFMsMcX2g" message="_USqIoKNOEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4eb2031cc85f4517b7474f7818540240" name="Nachricht_1_return:Receive" covered="_1fA1QKNNEeqvAeFMsMcX2g" message="_bRJ54KNQEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_262bd2aa09ad4d10ac06aaa784f50fe5" name="Exec_Lifeline1_ex1_1:Finish" covered="_1fA1QKNNEeqvAeFMsMcX2g" execution="_4rzhYKNNEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_d94557bd242d4424b0b12d38659f3876" name="Exec_Lifeline1_ex1_0:Finish" covered="_1fA1QKNNEeqvAeFMsMcX2g" execution="_2drc8KNNEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_aebb3c77746242d0b78f2dc5eb1fa945" name="Exec_Lifeline2_ex1_0:Start" covered="_13-u4KNNEeqvAeFMsMcX2g" execution="_3Yk-8KNNEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3Yk-8KNNEeqvAeFMsMcX2g" name="Exec_Lifeline2_ex1_0" covered="_13-u4KNNEeqvAeFMsMcX2g" finish="_f0e8593feb5e4e50ac3c2ffec8ad2906" start="_aebb3c77746242d0b78f2dc5eb1fa945"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_05632d5710a34e6e9be0647b54d8caa3" name="Nachricht_1:Receive" covered="_13-u4KNNEeqvAeFMsMcX2g" message="_USqIoKNOEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_d8b0ed044f714982a1eec2e88f47fa72" name="Nachricht_1_return:Send" covered="_13-u4KNNEeqvAeFMsMcX2g" message="_bRJ54KNQEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_f0e8593feb5e4e50ac3c2ffec8ad2906" name="Exec_Lifeline2_ex1_0:Finish" covered="_13-u4KNNEeqvAeFMsMcX2g" execution="_3Yk-8KNNEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3e5eb81e5fce409982d79277e7329371" name="Exec_Lifeline2_ex2_0:Start" covered="_13-u4KNNEeqvAeFMsMcX2g" execution="_kGfi4KNQEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_kGfi4KNQEeqvAeFMsMcX2g" name="Exec_Lifeline2_ex2_0" covered="_13-u4KNNEeqvAeFMsMcX2g" finish="_44054e16f9a34b699b8673bd15bc7ac9" start="_3e5eb81e5fce409982d79277e7329371"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_152e61e1e02945fda0d1b6b19e89b89f" name="Exec_Lifeline2_ex2_1:Start" covered="_13-u4KNNEeqvAeFMsMcX2g" execution="_n7AWUKNQEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_n7AWUKNQEeqvAeFMsMcX2g" name="Exec_Lifeline2_ex2_1" covered="_13-u4KNNEeqvAeFMsMcX2g" finish="_c2ee13fdd3864972b22fb83ec18677b4" start="_152e61e1e02945fda0d1b6b19e89b89f"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_c2ee13fdd3864972b22fb83ec18677b4" name="Exec_Lifeline2_ex2_1:Finish" covered="_13-u4KNNEeqvAeFMsMcX2g" execution="_n7AWUKNQEeqvAeFMsMcX2g"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_44054e16f9a34b699b8673bd15bc7ac9" name="Exec_Lifeline2_ex2_0:Finish" covered="_13-u4KNNEeqvAeFMsMcX2g" execution="_kGfi4KNQEeqvAeFMsMcX2g"/>
+<message xmi:type="uml:Message" xmi:id="_USqIoKNOEeqvAeFMsMcX2g" name="Nachricht_1" receiveEvent="_05632d5710a34e6e9be0647b54d8caa3" sendEvent="_95c38d32717349f08fd24d0218afabd8"/>
+<message xmi:type="uml:Message" xmi:id="_bRJ54KNQEeqvAeFMsMcX2g" name="Nachricht_1_return" receiveEvent="_4eb2031cc85f4517b7474f7818540240" sendEvent="_d8b0ed044f714982a1eec2e88f47fa72"/>
+</packagedElement>
+</uml:Model>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_8c6ccea48f994c2197422af9f52f47aa" name="findings">
+<packageImport xmi:type="uml:PackageImport" xmi:id="_aa929318f0354db0847fac16d30d3311">
+<importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+</packageImport>
+<packagedElement xmi:type="uml:Interaction" xmi:id="_5e49815c294b4bb8890f60041c8f1770" name="">
+<lifeline xmi:type="uml:Lifeline" xmi:id="_e19b25a6e9bf4bd4bd76aa6e81363cf6" name="Main" coveredBy="_5e99076b6bc844289c6282d25fd51e4d _8df9fe8287a9453781ff4dd2c5616c21 _e64200f32ebb45989fde4bf33fd46592  _432a1b03a2884ae8a0756ae8ff6092db "/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_5e99076b6bc844289c6282d25fd51e4d" name="main:Start" covered="_e19b25a6e9bf4bd4bd76aa6e81363cf6" execution="_8df9fe8287a9453781ff4dd2c5616c21"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_8df9fe8287a9453781ff4dd2c5616c21" name="main" covered="_e19b25a6e9bf4bd4bd76aa6e81363cf6" finish="_432a1b03a2884ae8a0756ae8ff6092db" start="_5e99076b6bc844289c6282d25fd51e4d"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_e64200f32ebb45989fde4bf33fd46592" name="sendInput:Send" covered="_e19b25a6e9bf4bd4bd76aa6e81363cf6" message="_69a1eed64cc048a59f7c220d1226c2f0"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_432a1b03a2884ae8a0756ae8ff6092db" name="main:Finish" covered="_e19b25a6e9bf4bd4bd76aa6e81363cf6" execution="_8df9fe8287a9453781ff4dd2c5616c21"/>
+<message xmi:type="uml:Message" xmi:id="_69a1eed64cc048a59f7c220d1226c2f0" name="sendInput" receiveEvent="null" sendEvent="_e64200f32ebb45989fde4bf33fd46592"/>
+</packagedElement>
+</uml:Model>

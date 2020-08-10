@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_297e813597fa4dfa9c72665279c27841" name="findings">
+<packageImport xmi:type="uml:PackageImport" xmi:id="_429355a9add44cd4ac40d9e2623c2ea7">
+<importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+</packageImport>
+<packagedElement xmi:type="uml:Interaction" xmi:id="_e5dbacb3f1e348fa9bac101807159943" name="">
+<lifeline xmi:type="uml:Lifeline" xmi:id="_112440b02eec40e7b0ef299140fd9056" name="*" coveredBy="_3d1aa73a5ffc4c249747fd3f7e832ede _75f5a4a2eda64cf3b92b904da755c77c _585f9b4789964480b25cbb48e2220956  _aab5f566b26744ed8e71cabb44ab1b51 "/>
+<lifeline xmi:type="uml:Lifeline" xmi:id="_9be4c5ddae34443b84e59f0974e87fc6" name="*" coveredBy="_4e5180afd64d4333869e5cb8927d72cd _569b01409a0143e09cce2226288aee46 _7ea5d9e04ae947ad999aa258e8757f39  _1d0e54bcae864b37a340a0dfeceb975e "/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3d1aa73a5ffc4c249747fd3f7e832ede" name="*:Start" covered="_112440b02eec40e7b0ef299140fd9056" execution="_75f5a4a2eda64cf3b92b904da755c77c"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_75f5a4a2eda64cf3b92b904da755c77c" name="*" covered="_112440b02eec40e7b0ef299140fd9056" finish="_aab5f566b26744ed8e71cabb44ab1b51" start="_3d1aa73a5ffc4c249747fd3f7e832ede"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_585f9b4789964480b25cbb48e2220956" name="€HellO€:Send" covered="_112440b02eec40e7b0ef299140fd9056" message="_628258df79f74de1b679a0b6002d72be"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_aab5f566b26744ed8e71cabb44ab1b51" name="*:Finish" covered="_112440b02eec40e7b0ef299140fd9056" execution="_75f5a4a2eda64cf3b92b904da755c77c"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_4e5180afd64d4333869e5cb8927d72cd" name="*:Start" covered="_9be4c5ddae34443b84e59f0974e87fc6" execution="_569b01409a0143e09cce2226288aee46"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_569b01409a0143e09cce2226288aee46" name="*" covered="_9be4c5ddae34443b84e59f0974e87fc6" finish="_1d0e54bcae864b37a340a0dfeceb975e" start="_4e5180afd64d4333869e5cb8927d72cd"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7ea5d9e04ae947ad999aa258e8757f39" name="€HellO€:Receive" covered="_9be4c5ddae34443b84e59f0974e87fc6" message="_628258df79f74de1b679a0b6002d72be"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_1d0e54bcae864b37a340a0dfeceb975e" name="*:Finish" covered="_9be4c5ddae34443b84e59f0974e87fc6" execution="_569b01409a0143e09cce2226288aee46"/>
+<message xmi:type="uml:Message" xmi:id="_628258df79f74de1b679a0b6002d72be" name="€HellO€" receiveEvent="_7ea5d9e04ae947ad999aa258e8757f39" sendEvent="_585f9b4789964480b25cbb48e2220956"/>
+</packagedElement>
+</uml:Model>

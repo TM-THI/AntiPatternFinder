@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_6b4e216f600c4eff9a08ae86f85ddb87" name="findings">
+<packageImport xmi:type="uml:PackageImport" xmi:id="_3cd833c49ab34301b800749895c9a5d7">
+<importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+</packageImport>
+<packagedElement xmi:type="uml:Interaction" xmi:id="_e4f338291a274d4b9f5c9be089a95f0e" name="">
+<lifeline xmi:type="uml:Lifeline" xmi:id="_88880557f62b41e1867fdc17b47cae11" name="BackupPersonalData" coveredBy="_275d90a27bdd4cfebf3392c015232792 _57b6606d7d75491abe372c89505e4c06 _99d3884ec7c94c449a236b466e2b400f _3e982aa0cf574bb89470f29514310976 _d6dc6d9196e34b2490eea99b4ca0a0ef  _d65c3766901342a1a13b1b7af857b5cd _18190c3b5f184b909daca16991c9ffc3 _800175acb8474e7e8c4aeb9ebfbf72b2  _07ef1201e0014a019362ba79d80a3355  _c081b78fd1ae485bbddad7e221623fed  _64d2d09ab5774f1f9149096ce5fef048 "/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_275d90a27bdd4cfebf3392c015232792" name="async_BackupPersonalData:Start" covered="_88880557f62b41e1867fdc17b47cae11" execution="_57b6606d7d75491abe372c89505e4c06"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_57b6606d7d75491abe372c89505e4c06" name="async_BackupPersonalData" covered="_88880557f62b41e1867fdc17b47cae11" finish="_64d2d09ab5774f1f9149096ce5fef048" start="_275d90a27bdd4cfebf3392c015232792"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_99d3884ec7c94c449a236b466e2b400f" name="backupPersonalData:Start" covered="_88880557f62b41e1867fdc17b47cae11" execution="_3e982aa0cf574bb89470f29514310976"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3e982aa0cf574bb89470f29514310976" name="backupPersonalData" covered="_88880557f62b41e1867fdc17b47cae11" finish="_c081b78fd1ae485bbddad7e221623fed" start="_99d3884ec7c94c449a236b466e2b400f"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_d6dc6d9196e34b2490eea99b4ca0a0ef" name="readPersonalData:Receive" covered="_88880557f62b41e1867fdc17b47cae11" message="_cea40400e1bc4bc399effc11e0584e7e"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_d65c3766901342a1a13b1b7af857b5cd" name="readData:Start" covered="_88880557f62b41e1867fdc17b47cae11" execution="_18190c3b5f184b909daca16991c9ffc3"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_18190c3b5f184b909daca16991c9ffc3" name="readData" covered="_88880557f62b41e1867fdc17b47cae11" finish="_07ef1201e0014a019362ba79d80a3355" start="_d65c3766901342a1a13b1b7af857b5cd"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_800175acb8474e7e8c4aeb9ebfbf72b2" name="readPersonalData:Send" covered="_88880557f62b41e1867fdc17b47cae11" message="_28ff37e4a967483b9fdc5e6cb33678ad"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_07ef1201e0014a019362ba79d80a3355" name="readData:Finish" covered="_88880557f62b41e1867fdc17b47cae11" execution="_18190c3b5f184b909daca16991c9ffc3"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_c081b78fd1ae485bbddad7e221623fed" name="backupPersonalData:Finish" covered="_88880557f62b41e1867fdc17b47cae11" execution="_3e982aa0cf574bb89470f29514310976"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_64d2d09ab5774f1f9149096ce5fef048" name="async_BackupPersonalData:Finish" covered="_88880557f62b41e1867fdc17b47cae11" execution="_57b6606d7d75491abe372c89505e4c06"/>
+<message xmi:type="uml:Message" xmi:id="_cea40400e1bc4bc399effc11e0584e7e" name="readPersonalData" receiveEvent="_d6dc6d9196e34b2490eea99b4ca0a0ef" sendEvent="null"/>
+<message xmi:type="uml:Message" xmi:id="_28ff37e4a967483b9fdc5e6cb33678ad" name="readPersonalData" receiveEvent="null" sendEvent="_800175acb8474e7e8c4aeb9ebfbf72b2"/>
+</packagedElement>
+</uml:Model>

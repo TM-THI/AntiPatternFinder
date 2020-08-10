@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_b0ab43158d774869925002e7bd7bdd5f" name="findings">
+<packageImport xmi:type="uml:PackageImport" xmi:id="_8cb62f40f87f4508ac8e42f72813cd56">
+<importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+</packageImport>
+<packagedElement xmi:type="uml:Interaction" xmi:id="_8ec0d5b35f604e5cbcc28e5afe873ec2" name="">
+<lifeline xmi:type="uml:Lifeline" xmi:id="_882b41297e16491192eeaf21a3a50043" name="Main" coveredBy="_1d18ac4cfeb246ea9f65dce40b0e9b58 _4b53b8deab8940619e524a4b486ebe96 _433561b9825f4e3da25015680e961aba  _bc5477e1e6c74c63a1b62241e1c35b71  _d36e2159c6be42b79d8c435facf2c17f "/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_1d18ac4cfeb246ea9f65dce40b0e9b58" name="main:Start" covered="_882b41297e16491192eeaf21a3a50043" execution="_4b53b8deab8940619e524a4b486ebe96"/>
+<fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_4b53b8deab8940619e524a4b486ebe96" name="main" covered="_882b41297e16491192eeaf21a3a50043" finish="_d36e2159c6be42b79d8c435facf2c17f" start="_1d18ac4cfeb246ea9f65dce40b0e9b58"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_433561b9825f4e3da25015680e961aba" name="readInput:Send" covered="_882b41297e16491192eeaf21a3a50043" message="_dcab75a13bde43f6950c3a0ef9527ac4"/>
+<fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bc5477e1e6c74c63a1b62241e1c35b71" name="sendInput:Send" covered="_882b41297e16491192eeaf21a3a50043" message="_18f1b55c90614ee6947ee941c6c6c853"/>
+<fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_d36e2159c6be42b79d8c435facf2c17f" name="main:Finish" covered="_882b41297e16491192eeaf21a3a50043" execution="_4b53b8deab8940619e524a4b486ebe96"/>
+<message xmi:type="uml:Message" xmi:id="_18f1b55c90614ee6947ee941c6c6c853" name="sendInput" receiveEvent="null" sendEvent="_bc5477e1e6c74c63a1b62241e1c35b71"/>
+<message xmi:type="uml:Message" xmi:id="_dcab75a13bde43f6950c3a0ef9527ac4" name="readInput" receiveEvent="null" sendEvent="_433561b9825f4e3da25015680e961aba"/>
+</packagedElement>
+</uml:Model>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xo6GYKNNEeqvAeFMsMcX2g" name="testModel">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_xq_KAKNNEeqvAeFMsMcX2g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:extension" xmi:id="extensionDictionary" name="Dictionary">
+    <dictionary xmi:type="uml:extension:Dictionary" name="encryptDictionary" value="encrypt verschlüsseln eeeencccryyppt"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_0CsoQKNNEeqvAeFMsMcX2g" name="Interaction2">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_1fA1QKNNEeqvAeFMsMcX2g" name="Lifeline1" coveredBy="_2dsrEKNNEeqvAeFMsMcX2g _2drc8KNNEeqvAeFMsMcX2g _4r0IcKNNEeqvAeFMsMcX2g _4rzhYKNNEeqvAeFMsMcX2g _UStzAKNOEeqvAeFMsMcX2g _bRLIAKNQEeqvAeFMsMcX2g _2dtSIKNNEeqvAeFMsMcX2g"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_13-u4KNNEeqvAeFMsMcX2g" name="Lifeline2" coveredBy="_3YlmAKNNEeqvAeFMsMcX2g _3Yk-8KNNEeqvAeFMsMcX2g _USuaEKNOEeqvAeFMsMcX2g _bRKg8KNQEeqvAeFMsMcX2g _kGgxAaNQEeqvAeFMsMcX2g _kGgxAKNQEeqvAeFMsMcX2g _kGfi4KNQEeqvAeFMsMcX2g _n7A9YKNQEeqvAeFMsMcX2g _n7AWUKNQEeqvAeFMsMcX2g _n7A9YaNQEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_2dsrEKNNEeqvAeFMsMcX2g" name="ActionExecutionSpecification3Start" covered="_1fA1QKNNEeqvAeFMsMcX2g" execution="_2drc8KNNEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_2drc8KNNEeqvAeFMsMcX2g" name="Exec_Lifeline1_ex1_0" covered="_1fA1QKNNEeqvAeFMsMcX2g" finish="_2dtSIKNNEeqvAeFMsMcX2g" start="_2dsrEKNNEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_4r0IcKNNEeqvAeFMsMcX2g" name="ActionExecutionSpecification9Start" covered="_1fA1QKNNEeqvAeFMsMcX2g" execution="_4rzhYKNNEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_4rzhYKNNEeqvAeFMsMcX2g" name="Exec_Lifeline1_ex1_1" covered="_1fA1QKNNEeqvAeFMsMcX2g" finish="_UStzAKNOEeqvAeFMsMcX2g" start="_4r0IcKNNEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UStzAKNOEeqvAeFMsMcX2g" name="Message12SendEvent" covered="_1fA1QKNNEeqvAeFMsMcX2g" message="_USqIoKNOEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_3YlmAKNNEeqvAeFMsMcX2g" name="ActionExecutionSpecification6Start" covered="_13-u4KNNEeqvAeFMsMcX2g" execution="_3Yk-8KNNEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_3Yk-8KNNEeqvAeFMsMcX2g" name="Exec_Lifeline2_ex1_0" covered="_13-u4KNNEeqvAeFMsMcX2g" finish="_bRKg8KNQEeqvAeFMsMcX2g" start="_3YlmAKNNEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_USuaEKNOEeqvAeFMsMcX2g" name="Message12ReceiveEvent" covered="_13-u4KNNEeqvAeFMsMcX2g" message="_USqIoKNOEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bRKg8KNQEeqvAeFMsMcX2g" name="Message14SendEvent" covered="_13-u4KNNEeqvAeFMsMcX2g" message="_bRJ54KNQEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bRLIAKNQEeqvAeFMsMcX2g" name="Message14ReceiveEvent" covered="_1fA1QKNNEeqvAeFMsMcX2g" message="_bRJ54KNQEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_kGgxAKNQEeqvAeFMsMcX2g" name="ActionExecutionSpecification16Start" covered="_13-u4KNNEeqvAeFMsMcX2g" execution="_kGfi4KNQEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_kGfi4KNQEeqvAeFMsMcX2g" name="Exec_Lifeline2_ex2_0" covered="_13-u4KNNEeqvAeFMsMcX2g" finish="_kGgxAaNQEeqvAeFMsMcX2g" start="_kGgxAKNQEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_n7A9YKNQEeqvAeFMsMcX2g" name="ActionExecutionSpecification19Start" covered="_13-u4KNNEeqvAeFMsMcX2g" execution="_n7AWUKNQEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_n7AWUKNQEeqvAeFMsMcX2g" name="Exec_Lifeline2_ex2_1" covered="_13-u4KNNEeqvAeFMsMcX2g" finish="_n7A9YaNQEeqvAeFMsMcX2g" start="_n7A9YKNQEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_2dtSIKNNEeqvAeFMsMcX2g" name="ActionExecutionSpecification3Finish" covered="_1fA1QKNNEeqvAeFMsMcX2g" execution="_2drc8KNNEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_n7A9YaNQEeqvAeFMsMcX2g" name="ActionExecutionSpecification19Finish" covered="_13-u4KNNEeqvAeFMsMcX2g" execution="_n7AWUKNQEeqvAeFMsMcX2g"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_kGgxAaNQEeqvAeFMsMcX2g" name="ActionExecutionSpecification16Finish" covered="_13-u4KNNEeqvAeFMsMcX2g" execution="_kGfi4KNQEeqvAeFMsMcX2g"/>
+    <message xmi:type="uml:Message" xmi:id="_USqIoKNOEeqvAeFMsMcX2g" name="$encryptDictionary$" receiveEvent="_USuaEKNOEeqvAeFMsMcX2g" sendEvent="_UStzAKNOEeqvAeFMsMcX2g"/>
+    <message xmi:type="uml:Message" xmi:id="_bRJ54KNQEeqvAeFMsMcX2g" name="Nachricht_1_return" messageSort="reply" receiveEvent="_bRLIAKNQEeqvAeFMsMcX2g" sendEvent="_bRKg8KNQEeqvAeFMsMcX2g"/>
+  </packagedElement>
+</uml:Model>
